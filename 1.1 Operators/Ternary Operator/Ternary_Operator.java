@@ -9,6 +9,9 @@ public class Ternary_Operator {
         int b = sc.nextInt();
 
         int max = (a>b)? a : b; // if (a>b)? conditon true print a else print b.
-        System.out.println(max);
+        System.out.println("Max :" + max);
+
+        String check = (10 % 2 == 0 )? "even " : "odd";
+        System.out.println(check);
     }
 }
