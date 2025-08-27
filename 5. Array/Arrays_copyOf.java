@@ -8,4 +8,4 @@ public class Arrays_copyOf {
         System.out.println(Arrays.toString(Arrays.copyOf(arr, 5)));
         System.out.println(Arrays.toString(Arrays.copyOf(arr, 10)));
     }
-}
+   }

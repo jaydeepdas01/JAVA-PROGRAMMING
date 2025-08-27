@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class ArrayAverage {
     public static void main(String[] args) {
 
-        double avg ;
+        double avg;
         int sum = 0;
         Scanner sc = new Scanner(System.in);
 
@@ -19,10 +19,9 @@ public class ArrayAverage {
             sum = sum + arr[i];
         }
 
-        avg = (double)sum/size;
+        avg = (double) sum / size;
 
         System.out.println("Average of all array elements : " + avg);
-    
 
     }
-} 
+}

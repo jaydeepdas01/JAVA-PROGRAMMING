@@ -6,9 +6,12 @@ public class VariableLifeTime {
     void show(){
         int b = 10; //local variable
         System.out.println(a + " " + b + " " + c );
-        ++a; 
-        ++b;
-        ++c;
+        // ++a; 
+        // ++b;
+        // ++c;
+        a++;
+        b++;
+        c++;
     }
     public static void main(String[] args){
         VariableLifeTime obj = new VariableLifeTime();
