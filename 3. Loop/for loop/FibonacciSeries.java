@@ -2,16 +2,16 @@ import java.util.Scanner;
 
 public class FibonacciSeries {
     public static void main(String[] args) {
-        // Taking user input
+       
         Scanner sc = new Scanner(System.in);
 
         int temp = 0, a = 0, b = 1; // Initializing first two Fibonacci numbers and temp variable
         System.out.print("Enter Number : ");
-        int num = sc.nextInt(); // Number of terms to be printed
+        int num = sc.nextInt(); 
 
         // Handling edge cases
         if (num <= 0) {
-            // Negative or zero input is not valid for Fibonacci series
+           
             System.out.println("Please enter a number greater than 0.");
         } else if (num == 1) {
             // If user wants only first term
@@ -32,7 +32,7 @@ public class FibonacciSeries {
             }
         }
 
-        sc.close(); // Closing Scanner (good practice)
+        sc.close(); 
     }
 }
 

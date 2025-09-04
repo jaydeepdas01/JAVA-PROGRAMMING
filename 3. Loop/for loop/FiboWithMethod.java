@@ -36,6 +36,7 @@ System.out.println("0  1 ");
 }else if (number<=0){
      System.out.println("Please enter a number greater than 0.");
 }else{
+    
 fiboAlgo(number); // method call
 }
 }
