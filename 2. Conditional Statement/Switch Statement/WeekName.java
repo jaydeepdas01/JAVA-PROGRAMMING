@@ -8,6 +8,7 @@ public class WeekName{
         System.out.println("Enter week number between 1 to 7.");
         int num = input.nextInt();
 
+        System.out.println("Print thorugh another methods.1");
         switch(num){
 
             case 1:
@@ -47,7 +48,7 @@ public class WeekName{
 
         //Method 2 
 
-        System.out.println("Print thorugh another methods.1");
+        System.out.println("Print thorugh another methods.2");
         switch(num){
             case 1 -> System.out.println("It's Monday.");
             case 2 -> System.out.println("It's Tuesdat.");

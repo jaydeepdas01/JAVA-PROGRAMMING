@@ -19,6 +19,6 @@ public class PositiveNumber {
 
         } while (true);
 
-System.out.println("Loop runs "+ count + " time.");
+        System.out.println("Loop runs " + count + " time.");
     }
 }

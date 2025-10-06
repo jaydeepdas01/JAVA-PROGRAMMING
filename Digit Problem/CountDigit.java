@@ -9,8 +9,9 @@ public class CountDigit {
         int num = input.nextInt();
         input.close();
 
+      num =   Math.abs(num); //-ve to +ve
         if (num == 0) {
-         count = 1;
+            count = 1;
         } else {
             while (num > 0) {
                 num = num / 10;

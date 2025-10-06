@@ -24,9 +24,9 @@ public class PrimeNumber {
             }
         }
 
-        if (!isPrime) {
+        if (!isPrime) { 
             System.out.println(num + " is not a prime Number.");
-        } else {
+        } else { //execute when  isPrime = flasi , ! change the value true to false , and false to true 
             System.out.println(num + " is a prime number.");
         }
     }

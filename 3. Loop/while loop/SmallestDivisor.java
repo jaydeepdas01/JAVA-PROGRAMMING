@@ -11,10 +11,11 @@ public class SmallestDivisor {
             System.out.println("No divisor greater than 1 exists.");
             return;
         }
-        int minDivisor =num;
+
+        int minDivisor =num; // if loop inside value does not change.
         for (int i = 2; i *i<= num; i++) {
             if (num % i == 0) {
-               minDivisor = i;
+               minDivisor = i; // new min divisor.
                 break;
             }
         }

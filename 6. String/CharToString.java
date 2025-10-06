@@ -1,9 +1,9 @@
-import java.util.Scanner;
+
 import java.util.Arrays;
 
 public class CharToString {
     public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
+      
 
         System.out.print("Character Array element: ");
 
