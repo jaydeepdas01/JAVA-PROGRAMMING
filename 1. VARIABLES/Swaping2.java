@@ -12,7 +12,7 @@ public class Swaping2 {
 
         sc.close();
 
-        System.out.printf("Befor swap a = %d and b = %d ", a, b);
+        System.out.printf("Before swap a = %d and b = %d ", a, b);
 
         // swaping algorithm without using third variagle.
 
