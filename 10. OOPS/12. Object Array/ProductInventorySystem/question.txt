@@ -1,0 +1,15 @@
+🔹 Question: Product Inventory System
+👉 Requirement:
+
+Ek Product class banao:
+
+id (int)
+name (String)
+price (double)
+
+Ek ProductManager class:
+
+addProduct(Product p)
+showAllProducts()
+searchById(int id) → print product
+findMaxPriceProduct() → sabse mehenga product print karo

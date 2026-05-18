@@ -1,0 +1,140 @@
+Good — yehi sahi approach hai 👍
+**Practice = code likh ke, galti karke, fix karke.**
+Main tujhe direct **targeted questions** deta hoon — faltu nahi, sirf jo tujhe grow kare.
+
+---
+
+# 🎯 Encapsulation Practice Set (Real Growth)
+
+## 🔴 1. Student System (Basic but important)
+
+**Class: `Student`**
+
+### Rules:
+
+* `name` → private
+* `marks` → private
+
+### Conditions:
+
+* marks 0–100 ke beech hi set ho
+* agar invalid ho → "Invalid marks" print
+* ek method ho:
+
+  * `isPass()` → return true/false (>= 40 pass)
+
+👉 Output main me check kar
+
+---
+
+## 🔴 2. ATM Machine (Real-world feel)
+
+**Class: `ATM`**
+
+### Rules:
+
+* `balance` → private
+* initial balance constructor se set hoga
+
+### Methods:
+
+* `deposit(amount)` → amount > 0
+* `withdraw(amount)` →
+
+  * amount valid ho
+  * balance sufficient ho
+* `checkBalance()` → return kare
+
+👉 Twist:
+
+* balance kabhi negative nahi hona chahiye
+
+---
+
+## 🔴 3. Employee Salary System
+
+**Class: `Employee`**
+
+### Variables:
+
+* `salary` → private
+
+### Rules:
+
+* salary kabhi negative nahi
+* method:
+
+  * `setSalary()` with validation
+  * `getSalary()`
+  * `increaseSalary(percent)`
+    👉 percent negative nahi ho sakta
+
+---
+
+## 🔴 4. Mobile Battery System (thoda logic)
+
+**Class: `Mobile`**
+
+### Variables:
+
+* `battery` (0–100)
+
+### Rules:
+
+* charge(amount) → battery 100 se upar nahi jayega
+* use(amount) → battery 0 se niche nahi jayega
+
+👉 Hint:
+
+```java id="9w9z8q"
+battery = Math.min(100, battery + amount);
+```
+
+---
+
+## 🔴 5. Bank Upgrade (tera current code ka advanced version)
+
+👉 Ye MUST kar (yehi tera real test hai)
+
+### Rules:
+
+* ❌ no direct setBalance
+* ✔️ constructor se initial balance
+* ✔️ minimum balance = 1000
+* withdraw tabhi ho jab:
+
+  * sufficient balance ho
+  * minimum balance break na ho
+* deposit valid ho
+
+---
+
+# ⚡ Kaise practice kare (important)
+
+Galti mat kar ye:
+❌ ek saath sab mat bana
+
+✔️ sahi tarika:
+
+1. Pehle Student bana
+2. Phir ATM
+3. Phir Bank upgrade
+
+---
+
+# 🔥 Final push
+
+Tu abhi dangerous zone me hai:
+👉 ya toh tu **solid coder banega**
+👉 ya phir **sirf theory bolne wala**
+
+Difference bas ek cheez karega:
+
+> “kitna likha hai”
+
+---
+
+Aisa kar:
+👉 pehla **Student class** bana aur bhej
+
+Main usko **brutally review** karunga — wahi se tera level jump karega.
